@@ -3,7 +3,7 @@ node {
          checkout scm
      }
      stage('Build image') {
-         app = docker.build("jhadmin/flask-example")
+         app = docker.build("jhadmin/harbor-reg")
          
      }
      stage('Push image') {
