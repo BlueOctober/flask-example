@@ -1,6 +1,8 @@
 # app.py
 from flask import Flask, render_template
 
+##주석추가
+
 #Flask 객체 인스턴스 생성
 app = Flask(__name__)
 
